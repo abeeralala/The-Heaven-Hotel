@@ -281,7 +281,7 @@ option {
 }
 
 input[type="date"] {
-    color: var(--1);
+    color-scheme: dark;
 }
 
 button {
