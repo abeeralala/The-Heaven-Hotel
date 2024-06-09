@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Heaven Hotel | Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font (Montserrat) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="Logo.jpeg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/eedac787f9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="nav-container">
+
+        <h2 class="logo"><a href="index.html" class="home">The Heaven Hotel</a></h2>
+
+        <ul class="links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+            <li><a href="booking.html" class="nav-link">Booking</a></li>
+            <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        </ul>
+
+    </div>
+
+    <br><br><br><br>
+
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <form method="POST" action="https://formspree.io/f/xleqkrrd">
+            <div class="form-group">
+                <label for="FName">Name*</label>
+                <div class="name-fields">
+                    <input type="text" id="FName" name="FName" placeholder="First Name*" required>
+                    <input type="text" id="LName" name="LName" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Email">Email*</label>
+                <input type="email" id="Email" name="Email" placeholder="e.g. example@domain.com" required>
+            </div>
+            <div class="form-group">
+                <label for="Phone">Phone*</label>
+                <input type="tel" id="Phone" name="Phone" placeholder="[+code]### #######" required>
+            </div>
+            <div class="form-group">
+                <label for="Message" class="msg-label">Message*</label>
+                <textarea id="Message" name="Message" rows="7"
+                    placeholder="Please enter your message here. Whether you have questions about our amenities, need assistance with a reservation, or have any special requests, we're here to help!"
+                    required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <ul class="social-icon">
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                </a></li>
+        </ul>
+        <ul class="menu">
+            <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+            <li class="menu__item"><a class="menu__link" href="about.html">About</a></li>
+            <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+            <li class="menu__item"><a class="menu__link" href="booking.html">Booking</a></li>
+            <li class="menu__item"><a class="menu__link" href="gallery.html">Gallery</a></li>
+
+        </ul>
+        <p>&copy;2024 The Heaven Hotel | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
